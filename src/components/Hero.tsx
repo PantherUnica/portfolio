@@ -37,7 +37,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 rounded-full p-1 animate-pulse">
                 <div className="w-full h-full bg-white rounded-full p-2">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
+                    src="https://i.postimg.cc/B6JrRXtJ/Whats-App-Image-2025-06-02-at-12-22-35-1.jpg" 
                     alt="Aditya Raj" 
                     className="w-full h-full object-cover rounded-full"
                   />

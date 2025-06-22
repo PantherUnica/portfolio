@@ -51,7 +51,7 @@ const Hero = () => {
           </div>
 
           {/* Enhanced Typography */}
-          <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-blue-800 to-indigo-900 mb-6 leading-tight tracking-tight">
+          <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 mb-6 leading-tight tracking-tight">
             Hi, I'm{' '}
             <span className="relative">
               Aditya Raj

@@ -1,17 +1,15 @@
-
 import React from 'react';
 import { ArrowRight, Download, Sparkles } from 'lucide-react';
-
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Modern Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-blue-50/50 to-indigo-100/30"></div>
       
@@ -36,11 +34,7 @@ const Hero = () => {
               {/* Gradient Ring */}
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 rounded-full p-1 animate-pulse">
                 <div className="w-full h-full bg-white rounded-full p-2">
-                  <img 
-                    src="https://i.postimg.cc/B6JrRXtJ/Whats-App-Image-2025-06-02-at-12-22-35-1.jpg" 
-                    alt="Aditya Raj" 
-                    className="w-full h-full object-cover rounded-full"
-                  />
+                  <img src="https://i.postimg.cc/B6JrRXtJ/Whats-App-Image-2025-06-02-at-12-22-35-1.jpg" alt="Aditya Raj" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
               
@@ -53,7 +47,7 @@ const Hero = () => {
           {/* Enhanced Typography */}
           <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 mb-6 leading-tight tracking-tight">
             Hi, I'm{' '}
-            <span className="relative">
+            <span className="relative text-slate-900">
               Aditya Raj
               <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
             </span>
@@ -76,18 +70,12 @@ const Hero = () => {
 
           {/* Modern CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-            <button
-              onClick={() => scrollToSection('portfolio')}
-              className="group bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-2xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 flex items-center justify-center gap-3 shadow-xl hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1"
-            >
+            <button onClick={() => scrollToSection('portfolio')} className="group bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-2xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 flex items-center justify-center gap-3 shadow-xl hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1">
               Explore My Work
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
             
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="group bg-white/80 backdrop-blur-sm border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-2xl font-semibold hover:bg-white hover:border-blue-300 hover:text-blue-700 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:scale-105 hover:-translate-y-1"
-            >
+            <button onClick={() => scrollToSection('contact')} className="group bg-white/80 backdrop-blur-sm border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-2xl font-semibold hover:bg-white hover:border-blue-300 hover:text-blue-700 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:scale-105 hover:-translate-y-1">
               Get in Touch
             </button>
             
@@ -136,8 +124,6 @@ const Hero = () => {
           <div className="w-1 h-3 bg-slate-400 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

@@ -88,7 +88,7 @@ const Hero = () => {
           {/* Enhanced Featured Project Card */}
           <div className="relative max-w-md mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-3xl blur-xl"></div>
-            <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/50">
+            <div className="relative bg-white/90 backdrop-blur-sm p-8 shadow-2xl border border-white/50 rounded-3xl px-[32px] mx-0 my-[30px]">
               <div className="flex items-center justify-between mb-4">
                 <span className="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full tracking-wider uppercase">
                   Featured Project

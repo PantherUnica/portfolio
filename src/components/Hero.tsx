@@ -23,10 +23,7 @@ const Hero = () => {
       <div className="relative container mx-auto px-6 text-center pt-20">
         <div className="max-w-5xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-blue-100 rounded-full px-4 py-2 mb-8 shadow-lg">
-            <Sparkles className="w-4 h-4 text-blue-600" />
-            <span className="text-sm font-medium text-gray-700">Available for Product Strategy Consulting</span>
-          </div>
+          
 
           {/* Profile Photo with Modern Design */}
           <div className="mb-8 relative">

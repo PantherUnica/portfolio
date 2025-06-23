@@ -32,7 +32,7 @@ const Hero = () => {
               {/* Gradient Ring */}
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 rounded-full p-1 animate-pulse">
                 <div className="w-full h-full bg-white rounded-full p-2">
-                  <img src="https://i.postimg.cc/B6JrRXtJ/Whats-App-Image-2025-06-02-at-12-22-35-1.jpg" alt="Aditya Raj" className="w-full h-full object-cover rounded-full" />
+                  <img src="https://i.postimg.cc/B6JrRXtJ/Whats-App-Image-2025-06-02-at-12-22-35-1.jpg" alt="Aditya" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
               
@@ -107,9 +107,19 @@ const Hero = () => {
                 <span className="font-bold text-green-600">60%</span>
               </p>
               
-              <div className="flex items-center text-blue-600 font-semibold text-sm group cursor-pointer">
-                View Case Study
-                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+              <div className="flex items-center justify-between">
+                <div className="flex items-center text-blue-600 font-semibold text-sm group cursor-pointer">
+                  View Case Study
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+                </div>
+                <a 
+                  href="/mnt/data/Nirmaan%20Pitch%20Deck.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-purple-600 font-semibold text-sm hover:text-purple-800 transition-colors duration-300"
+                >
+                  Nirmaan Pitch Deck
+                </a>
               </div>
             </div>
           </div>

@@ -30,6 +30,34 @@ const Leadership = () => {
     }
   ];
 
+  const positions = [
+    {
+      title: "Head – Placement & Internship Cell",
+      organization: "IIT Madras",
+      period: "Mar'25 – Present",
+      responsibilities: [
+        "Spearheading 3-tier, 21-member team managing 750+ profiles in Finance, Analytics, Core & Research sectors",
+        "Formulated 4-sector outreach plan; compiled 250+ prep resources benefiting over 4K+ students",
+        "Integrated 3 automated outreach workflows, improving efficiency by 600% and saving 20+ hours per week",
+        "Co-led 8-member finance outreach team, driving 240% increase in converts & 6.3x company footfall",
+        "Managed Alumni and International Outreach, achieving 32% conversion rate with 18% YoY role increase",
+        "Acted as liaison for 8 companies including IMC Trading, Info Edge, ICICI Bank, Hilabs, and Demolish",
+        "Mentored 20+ Dual Degree students on resume building and placement strategy navigation"
+      ]
+    },
+    {
+      title: "Head of Product Design Club",
+      organization: "IIT Madras",
+      period: "Previous Role",
+      responsibilities: [
+        "Hands-on product sprint methodology development",
+        "Industry mentorship program with product leaders",
+        "Real client project collaborations",
+        "Product case study competitions and hackathons"
+      ]
+    }
+  ];
+
   return (
     <section id="leadership" className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
       <div className="container mx-auto px-6">
@@ -43,54 +71,47 @@ const Leadership = () => {
             <div className="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
           </div>
 
+          {/* Leadership Positions */}
+          <div className="mb-16">
+            {positions.map((position, index) => (
+              <div key={index} className="mb-12 bg-white rounded-lg p-8 shadow-lg">
+                <h3 className="text-3xl font-bold text-gray-900 mb-2">
+                  {position.title}
+                </h3>
+                <p className="text-xl text-blue-600 font-semibold mb-2">
+                  {position.organization}
+                </p>
+                <p className="text-gray-600 font-medium mb-6">
+                  {position.period}
+                </p>
+                <ul className="space-y-3">
+                  {position.responsibilities.map((responsibility, respIndex) => (
+                    <li key={respIndex} className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-600">{responsibility}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content */}
             <div>
-              <div className="mb-8">
-                <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                  Head of Product Design Club
-                </h3>
-                <p className="text-xl text-blue-600 font-semibold mb-6">
-                  IIT Madras
+              <div className="space-y-4 text-gray-600 leading-relaxed">
+                <p>
+                  Through my leadership roles at IIT Madras, I've transformed theoretical 
+                  education into practical, hands-on learning experiences across multiple domains.
                 </p>
-                <div className="space-y-4 text-gray-600 leading-relaxed">
-                  <p>
-                    As Head of the Product Design Club at IIT Madras, I've transformed theoretical 
-                    product management education into a practical, hands-on learning experience.
-                  </p>
-                  <p>
-                    My leadership philosophy centers around "learning by doing" - creating real-world 
-                    product challenges that bridge the gap between academic knowledge and industry practice.
-                  </p>
-                  <p>
-                    Through structured product sprints, workshops, and mentorship programs, I've built 
-                    a thriving community of 50+ product enthusiasts who are now contributing to 
-                    startups and established companies across various domains.
-                  </p>
-                </div>
-              </div>
-
-              {/* Key Initiatives */}
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <h4 className="text-lg font-bold text-gray-900 mb-4">Key Initiatives</h4>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
-                    <span className="text-gray-600">Hands-on product sprint methodology development</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
-                    <span className="text-gray-600">Industry mentorship program with product leaders</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
-                    <span className="text-gray-600">Real client project collaborations</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
-                    <span className="text-gray-600">Product case study competitions and hackathons</span>
-                  </li>
-                </ul>
+                <p>
+                  My leadership philosophy centers around "learning by doing" - creating real-world 
+                  challenges that bridge the gap between academic knowledge and industry practice.
+                </p>
+                <p>
+                  From managing placement processes to building product communities, I've built 
+                  thriving ecosystems that benefit thousands of students and drive measurable outcomes.
+                </p>
               </div>
             </div>
 

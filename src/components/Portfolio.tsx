@@ -12,7 +12,9 @@ const Portfolio = () => {
       outcome: "Reduced swap downtime by 60% and improved battery utilization efficiency by 45%",
       keyLearnings: "Scalable infrastructure requires predictive modeling and seamless user experience design.",
       image: "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=400&h=250&fit=crop",
-      tags: ["Product Strategy", "IoT", "Predictive Analytics"]
+      tags: ["Product Strategy", "IoT", "Predictive Analytics"],
+      pdfLink: "/mnt/data/Nirmaan%20Pitch%20Deck.pdf",
+      pdfName: "Nirmaan Pitch Deck"
     },
     {
       title: "OverLeveraged",
@@ -56,6 +58,17 @@ const Portfolio = () => {
     }
   ];
 
+  const additionalPDFs = [
+    {
+      name: "Spotify Pitch Deck",
+      link: "/mnt/data/Spotify.pdf"
+    },
+    {
+      name: "Netflix Pitch Deck", 
+      link: "/mnt/data/NETFLIX%20(1).pdf"
+    }
+  ];
+
   return (
     <section id="portfolio" className="py-20 bg-white">
       <div className="container mx-auto px-6">
@@ -67,6 +80,24 @@ const Portfolio = () => {
               Case studies showcasing problem-solving across diverse domains
             </p>
             <div className="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+          </div>
+
+          {/* Additional PDF Links */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Additional Resources</h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              {additionalPDFs.map((pdf, index) => (
+                <a
+                  key={index}
+                  href={pdf.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-100 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-200 transition-colors duration-300 shadow-md hover:shadow-lg"
+                >
+                  {pdf.name}
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Projects Grid */}
@@ -139,6 +170,21 @@ const Portfolio = () => {
                       </span>
                     ))}
                   </div>
+
+                  {/* PDF Link if available */}
+                  {project.pdfLink && (
+                    <div className="mt-4">
+                      <a
+                        href={project.pdfLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-purple-600 font-semibold text-sm hover:text-purple-800 transition-colors duration-300"
+                      >
+                        {project.pdfName}
+                        <ArrowRight className="w-4 h-4 ml-1" />
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowRight, Download, Sparkles } from 'lucide-react';
 const Hero = () => {
@@ -45,7 +46,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 mb-6 leading-tight tracking-tight">
             Hi, I'm{' '}
             <span className="relative text-slate-900">
-              Aditya Raj
+              Aditya
               <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
             </span>
           </h1>

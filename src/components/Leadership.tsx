@@ -72,9 +72,9 @@ const Leadership = () => {
           </div>
 
           {/* Leadership Positions */}
-          <div className="mb-16">
+          <div className="mb-16 grid grid-cols-1 md:grid-cols-2 gap-8">
             {positions.map((position, index) => (
-              <div key={index} className="mb-12 bg-white rounded-lg p-8 shadow-lg">
+              <div key={index} className="bg-white rounded-lg p-8 shadow-lg">
                 <h3 className="text-3xl font-bold text-gray-900 mb-2">
                   {position.title}
                 </h3>
@@ -96,20 +96,21 @@ const Leadership = () => {
             ))}
           </div>
 
+
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content */}
             <div>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Through my leadership roles at IIT Madras, I've transformed theoretical 
+                  Through my leadership roles at IIT Madras, I've transformed theoretical
                   education into practical, hands-on learning experiences across multiple domains.
                 </p>
                 <p>
-                  My leadership philosophy centers around "learning by doing" - creating real-world 
+                  My leadership philosophy centers around "learning by doing" - creating real-world
                   challenges that bridge the gap between academic knowledge and industry practice.
                 </p>
                 <p>
-                  From managing placement processes to building product communities, I've built 
+                  From managing placement processes to building product communities, I've built
                   thriving ecosystems that benefit thousands of students and drive measurable outcomes.
                 </p>
               </div>
@@ -118,7 +119,7 @@ const Leadership = () => {
             {/* Achievements Grid */}
             <div className="grid sm:grid-cols-2 gap-6">
               {achievements.map((achievement, index) => (
-                <div 
+                <div
                   key={index}
                   className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-center"
                 >

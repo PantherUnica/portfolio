@@ -11,63 +11,73 @@ const Portfolio = () => {
       approach: "Developed a Battery-as-a-Service (BaaS) model with predictive analytics for optimal battery allocation and real-time monitoring.",
       outcome: "Reduced swap downtime by 60% and improved battery utilization efficiency by 45%",
       keyLearnings: "Scalable infrastructure requires predictive modeling and seamless user experience design.",
-      image: "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=400&h=250&fit=crop",
+      image: "/Images/Car_Photo.jpg",
       tags: ["Product Strategy", "IoT", "Predictive Analytics"],
-      pdfLink: "/mnt/data/Nirmaan%20Pitch%20Deck.pdf",
+      pdfLink: "https://drive.google.com/file/d/1tOMz59LCrOxPxX8xM__yTghwQeFRiUEf/view?usp=sharing",
       pdfName: "Nirmaan Pitch Deck"
     },
     {
-      title: "OverLeveraged",
-      category: "Fintech",
-      problem: "Traditional KYC processes created significant friction, causing 40% user drop-off during onboarding.",
-      approach: "Implemented AI-powered document verification and streamlined UX flows with progressive disclosure techniques.",
-      outcome: "Achieved 85% DAU/MAU ratio boost and reduced onboarding time by 70%",
-      keyLearnings: "User friction elimination requires balancing security with seamless experience design.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=250&fit=crop",
-      tags: ["Fintech", "AI/ML", "UX Design"]
-    },
-    {
-      title: "Neurological Aging Model",
-      category: "Neurotech",
-      problem: "Lack of accurate predictive models for neurological aging patterns in clinical research.",
-      approach: "Analyzed 173 brain samples using PCA for segmentation and machine learning for pattern recognition.",
-      outcome: "Developed predictive model with 89% accuracy for neurological aging patterns",
-      keyLearnings: "Complex biological data requires sophisticated feature engineering and domain expertise.",
+      title: "BCG Ideathon",
+      category: "Business Strategy",
+      problem: "₹5 crore entry barrier stopped retail investors from investing in high-return movie projects.",
+      approach: "Built a trading platform for movie shares targeting $5.1B market in 5 years.",
+      outcome: "Created phased roadmap, secured indie makers, aimed 5% market share by 2030.",
+      keyLearnings: "Learned how to build scalable products combining finance, entertainment, and investor trust.",
       image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop",
-      tags: ["Machine Learning", "Data Science", "Healthcare"]
+      tags: ["Entertainment Finance", "Strategy",],
+      pdfLink: "https://drive.google.com/file/d/1FpQ9v3WM9YHXia4Qd07sjIwykLD-rvu8/view?usp=sharing",
+      pdfName: "BCG Case Study"
     },
     {
-      title: "Thumbnail Automation Tool",
-      category: "Content Technology",
-      problem: "Manual thumbnail creation was time-consuming and inconsistent for content creators.",
-      approach: "Built Django-based automation tool with AI-powered design suggestions and template generation.",
-      outcome: "Improved click-through rates by 40% and reduced thumbnail creation time by 85%",
-      keyLearnings: "Automation tools must balance efficiency with creative control for optimal user adoption.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
-      tags: ["Automation", "Django", "AI/ML"]
+      title: "Netflix Case Study",
+      category: ["Growth Marketing","Consumer Insights",],
+      problem: "High prices and low engagement caused weak user conversions and rising subscription churn.",
+      approach: "Built 3 plans using user research: weekend binge, student lite, bundled streaming combos.",
+      outcome: "Added 3.4K new users/day and ₹15.75L/day revenue, closing 80% revenue shortfall.",
+      keyLearnings: "Learned how price sensitivity, digital behavior, and micro-personas shape OTT platform strategy.",
+      image: "/Images/netflix_photo.jpg",
+      tags: ["Consumer Behavior", "Product Marketing",],
+      pdfLink: "https://drive.google.com/file/d/1h7EKWisaIcQ2yYEJi9oEWXyn0uojo5vW/view?usp=sharing",
+      pdfName: "Netflix Case Study"
     },
     {
-      title: "Bio-Recycling Model (Inter-IIT)",
-      category: "Sustainability",
-      problem: "Massive waste generation with limited recovery value identification and processing efficiency.",
-      approach: "Developed comprehensive bio-recycling framework with value recovery optimization algorithms.",
-      outcome: "Identified ₹900Cr recoverable value potential with 65% processing efficiency improvement",
-      keyLearnings: "Sustainable solutions require innovative business models alongside technical innovation.",
-      image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=250&fit=crop",
-      tags: ["Sustainability", "Business Model", "Research"]
-    }
+      title: "Spotify Case Study",
+      category: "AI Product Innovation",
+      problem: "Playlists are static; no feature adjusts music in real-time based on mood.",
+      approach: "Built AI DJ using mood detection, beat-matching, snippet mashups, and voice synthesis tech.",
+      outcome: "Projected 30% revenue boost by 2029 and 20% rise in premium plan conversions.",
+      keyLearnings: "Learned to balance desirability, viability, and feasibility in AI-led product development.",
+      image: "/Images/Spotify.jpg",
+      tags: ["Product Management", "UI/UX",],
+      pdfLink: "https://drive.google.com/file/d/1K3o-78P6K7Zbb2AGBa-BPq2_VYCsA5jy/view?usp=sharing",
+      pdfName: "Spotify Case Study"
+    },
+     {
+      title: "Ditto Insurance Case Study",
+      category: "Financial Literacy",
+      problem: "Consumers lack awareness, trust, and accessibility in choosing and understanding insurance plans.",
+      approach: "Designed AI chatbot, comparison tools, and rural distribution to bridge trust and access gaps.",
+      outcome: "Boosted transparency, enabled 24/7 access, improved rural adoption through local agent training.",
+      keyLearnings: "Learned to solve financial inclusion by blending digital tools with trust-focused advisory channels.",
+      image: "/Images/Ditto logo_1200_x_630.webp",
+      tags: ["User Research", "Product Strategy",],
+      pdfLink: "https://drive.google.com/file/d/1bEEPqKHiXct9-rpfiGjzsE7o3y2PISSa/view?usp=sharing",
+      pdfName: "Ditto Case Study"
+    },
+      {
+      title: "Inter-IIT Case Study",
+      category: "Sustainability Strategy",
+      problem: "India’s solar waste to hit 600k tonnes by 2030, with only 20% recycled.",
+      approach: "Built AI DJ using mood detection, beat-matching, snippet mashups, and voice synthesis tech.",
+      outcome: "Projected 30% revenue boost by 2029 and 20% rise in premium plan conversions.",
+      keyLearnings: "Learned to balance desirability, viability, and feasibility in AI-led product development.",
+      image: "/Images/Spotify.jpg",
+      tags: ["Product Management", "UI/UX",],
+      pdfLink: "https://drive.google.com/file/d/1K3o-78P6K7Zbb2AGBa-BPq2_VYCsA5jy/view?usp=sharing",
+      pdfName: "Spotify Case Study"
+    }, 
   ];
 
-  const additionalPDFs = [
-    {
-      name: "Spotify Pitch Deck",
-      link: "/mnt/data/Spotify.pdf"
-    },
-    {
-      name: "Netflix Pitch Deck", 
-      link: "/mnt/data/NETFLIX%20(1).pdf"
-    }
-  ];
 
   return (
     <section id="portfolio" className="py-20 bg-white">
@@ -82,23 +92,6 @@ const Portfolio = () => {
             <div className="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
           </div>
 
-          {/* Additional PDF Links */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Additional Resources</h3>
-            <div className="flex flex-wrap justify-center gap-4">
-              {additionalPDFs.map((pdf, index) => (
-                <a
-                  key={index}
-                  href={pdf.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-100 text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-200 transition-colors duration-300 shadow-md hover:shadow-lg"
-                >
-                  {pdf.name}
-                </a>
-              ))}
-            </div>
-          </div>
 
           {/* Projects Grid */}
           <div className="grid lg:grid-cols-2 gap-8">

@@ -34,13 +34,6 @@ const About = () => {
                 </p>
               </div>
 
-              {/* Download Resume Button */}
-              <div className="mt-8">
-                <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-all duration-200 flex items-center gap-2 hover:scale-105">
-                  <Download size={20} />
-                  Download Resume
-                </button>
-              </div>
             </div>
 
             {/* Education Section */}

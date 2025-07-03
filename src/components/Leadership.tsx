@@ -41,8 +41,7 @@ const Leadership = () => {
         "Integrated 3 automated outreach workflows, improving efficiency by 600% and saving 20+ hours per week",
         "Co-led 8-member finance outreach team, driving 240% increase in converts & 6.3x company footfall",
         "Managed Alumni and International Outreach, achieving 32% conversion rate with 18% YoY role increase",
-        "Acted as liaison for 8 companies including IMC Trading, Info Edge, ICICI Bank, Hilabs, and Demolish",
-        "Mentored 20+ Dual Degree students on resume building and placement strategy navigation"
+        
       ]
     },
     {
@@ -50,10 +49,11 @@ const Leadership = () => {
       organization: "IIT Madras",
       period: "Previous Role",
       responsibilities: [
-        "Hands-on product sprint methodology development",
-        "Industry mentorship program with product leaders",
-        "Real client project collaborations",
-        "Product case study competitions and hackathons"
+        "Led 5 tier 50-members team & pioneered 5-min prep sprints, boosting product & consulting readiness at IITM",
+        "Received 2 patents for projects Agriscape & OSA showcasing innovation across agricultural & medical domains",
+        "Boosted PDC8 Instagram engagement by 14,700% and YouTube subscribers by 20.8% through strategic content",
+        "Taught Design Thinking, Marketing, Testing, and Figma to 180+ participants during the CFI9 Summer School’23",
+        "Executed a successful Freshie Design Challenge with 250+ participants & Conducted Workshops in Shastra’ 24",
       ]
     }
   ];
@@ -99,7 +99,7 @@ const Leadership = () => {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content */}
-            <div>
+            {/* <div>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Through my leadership roles at IIT Madras, I've transformed theoretical
@@ -114,10 +114,10 @@ const Leadership = () => {
                   thriving ecosystems that benefit thousands of students and drive measurable outcomes.
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* Achievements Grid */}
-            <div className="grid sm:grid-cols-2 gap-6">
+            {/* <div className="grid sm:grid-cols-2 gap-6">
               {achievements.map((achievement, index) => (
                 <div
                   key={index}
@@ -137,7 +137,7 @@ const Leadership = () => {
                   </p>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

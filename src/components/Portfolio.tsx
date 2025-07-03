@@ -23,7 +23,7 @@ const Portfolio = () => {
       approach: "Built a trading platform for movie shares targeting $5.1B market in 5 years.",
       outcome: "Created phased roadmap, secured indie makers, aimed 5% market share by 2030.",
       keyLearnings: "Learned how to build scalable products combining finance, entertainment, and investor trust.",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop",
+      image: "/Images/BCG_Corporate_Logo.svg.png",
       tags: ["Entertainment Finance", "Strategy",],
       pdfLink: "https://drive.google.com/file/d/1FpQ9v3WM9YHXia4Qd07sjIwykLD-rvu8/view?usp=sharing",
       pdfName: "BCG Case Study"
@@ -71,7 +71,7 @@ const Portfolio = () => {
       approach: "Built AI DJ using mood detection, beat-matching, snippet mashups, and voice synthesis tech.",
       outcome: "Projected 30% revenue boost by 2029 and 20% rise in premium plan conversions.",
       keyLearnings: "Learned to balance desirability, viability, and feasibility in AI-led product development.",
-      image: "/Images/Spotify.jpg",
+      image: "/Images/Main-colour-4.png",
       tags: ["Product Management", "UI/UX",],
       pdfLink: "https://drive.google.com/file/d/1K3o-78P6K7Zbb2AGBa-BPq2_VYCsA5jy/view?usp=sharing",
       pdfName: "Spotify Case Study"

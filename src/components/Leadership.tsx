@@ -32,7 +32,7 @@ const Leadership = () => {
 
   const positions = [
     {
-      title: "Head – Placement & Internship Cell",
+      title: "Head Placement & Internship Cell",
       organization: "IIT Madras",
       period: "Mar'25 – Present",
       responsibilities: [

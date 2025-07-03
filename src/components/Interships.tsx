@@ -6,7 +6,7 @@ const Intership = () => {
   const projects = [
     {
       title: "FedEx",
-      Role: "Supply Chain Manager",
+      role: "Supply Chain Manager",
       problem: "Absence of a reliable public API made drone airspace zone detection slow, manual, and inefficient for automation.",
       approach: "Developed a browser automation pipeline using Selenium and OpenCV to detect Digital Sky drone zones from map screenshots.",
       outcome: "Built a FastAPI-based tool achieving 85–90% accuracy in classifying airspace zones across 150+ Indian PIN code locations",
@@ -53,10 +53,7 @@ const Intership = () => {
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Internships</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Case studies showcasing problem-solving across diverse domains
-            </p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Experience</h2>
             <div className="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
           </div>
 

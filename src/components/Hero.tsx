@@ -57,7 +57,7 @@ const Hero = () => {
 
         {/* Modern CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-          <button onClick={() => scrollToSection('portfolio')} className="group bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-2xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 flex items-center justify-center gap-3 shadow-xl hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1">
+          <button onClick={() => scrollToSection('internship')} className="group bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-2xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 flex items-center justify-center gap-3 shadow-xl hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1">
             Explore My Work
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </button>

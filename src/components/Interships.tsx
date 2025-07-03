@@ -48,7 +48,7 @@ const Intership = () => {
 
 
   return (
-    <section id="portfolio" className="py-20 bg-white">
+    <section id="internship" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
